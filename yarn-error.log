@@ -1,0 +1,37 @@
+Arguments: 
+  /opt/homebrew/Cellar/node@16/16.16.0/bin/node /opt/homebrew/Cellar/yarn/1.22.19/libexec/bin/yarn.js add -D vuepress
+
+PATH: 
+  /opt/homebrew/opt/node@16/bin:/opt/homebrew/opt/curl/bin:/opt/homebrew/opt/openssl@3/bin:/opt/homebrew/opt/curl/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.16.0
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: ENOENT: no such file or directory, open '/Users/linzheng/Library/Caches/Yarn/v6/npm-prettier-2.7.1-e235806850d057f97bb08368a4f7d899f7760c64-integrity/node_modules/prettier/.yarn-metadata.json'
+
+npm manifest: 
+  {
+    "name": "snippet-code",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
